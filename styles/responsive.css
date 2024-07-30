@@ -1,12 +1,50 @@
 /* Responsive for small devices */
 
 @media screen and (max-width: 576px) {
+  /* nav bar */
   .nav-for-large-devices {
     display: none;
   }
 
   .nav-for-small-devices {
     display: contents;
+  }
+  /*Change Your Habits */
+  .change-your-habit-img {
+    grid-template-columns: 1fr;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .change-your-habit-content {
+    width: auto;
+  }
+
+  .extra-mile-section {
+    width: 90%;
+  }
+
+  .extra-mile-div {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px;
+  }
+
+  .extra-mile-div h1 {
+    width: 100%;
+  }
+
+  .extra-mile-div p {
+    width: 100%;
+  }
+
+  .extra-mile-div button {
+    width: 90%;
+  }
+
+  .extra-mile-div img {
+    margin-top: 40px;
+    width: 100%;
   }
 }
 
