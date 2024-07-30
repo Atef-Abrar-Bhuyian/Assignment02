@@ -201,15 +201,13 @@ body {
   margin: 0 auto;
   align-items: center;
   justify-content: center;
-  background-color: rgba(255, 255, 255, 0.144);
+  background-color: rgba(34, 34, 34, 1);
   border-radius: 15px;
 }
 
 .extra-mile-section img {
   width: 100%;
   border-radius: 10px;
-  /* padding-top: 150px; */
-  /* clip-path: inset(20px 100px 180px 250px round 20px); */
   width: 366px;
   height: 312px;
 }
@@ -234,9 +232,9 @@ body {
 
 .extra-mile-contect p {
   font-size: 1rem;
-  color: rgba(255, 255, 255, 0.5);
+  opacity: 50%;
   width: 80%;
-  line-height: 25px;
+  line-height: 1.5rem;
 }
 
 .extra-mile-contect button {
@@ -248,3 +246,84 @@ body {
 }
 
 /* Run an Extra Mile Section Ends Here */
+
+/* BMI Calculator Section Start Here */
+
+.bmi-section {
+  margin-top: 80px;
+}
+
+.bmi-content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  align-items: start;
+}
+
+.bmi-content h1 {
+  font-size: 2.8rem;
+}
+
+.bmi-content p {
+  font-size: 1rem;
+  opacity: 50%;
+  margin-top: 15px;
+}
+
+.bmi-table-content {
+  width: 40%;
+}
+
+.bmi-calculator-box {
+  background-color: rgba(34, 34, 34, 1);
+  margin-top: 80px;
+}
+
+.bmi-calculator {
+  padding-top: 50px;
+  display: flex;
+  gap: 170px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.bmi-calculator table {
+  margin-top: 50px;
+}
+
+.bmi-calculator table,
+th,
+td {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-collapse: collapse;
+  padding: 20px;
+}
+
+.bmi-calculator-content p {
+  font-weight: 1rem;
+  opacity: 50%;
+  padding-top: 14px;
+  line-height: 1.5rem;
+}
+
+.bmi-calculator-input form {
+  margin-top: 30px;
+}
+
+.bmi-calculator-input input,
+select,
+option {
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 250px;
+  height: 25px;
+  padding: 12px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+  border: none;
+  font-weight: 1rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* BMI Calculator Section Ends Here */
