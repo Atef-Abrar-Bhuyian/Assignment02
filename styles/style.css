@@ -297,7 +297,8 @@ th,
 td {
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-collapse: collapse;
-  padding: 20px;
+  padding: 15px;
+  text-align: start;
 }
 
 .bmi-calculator-content p {
@@ -324,6 +325,26 @@ option {
   border: none;
   font-weight: 1rem;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.activity-form select {
+  width: 200px;
+}
+
+.bmi-calculator-input button {
+  width: 40%;
+  color: white;
+  margin-top: 35px;
+}
+
+#gender-id {
+  width: 270px;
+  height: 50px;
+}
+
+#activity-id {
+  height: 50px;
+  width: 95%;
 }
 
 /* BMI Calculator Section Ends Here */
