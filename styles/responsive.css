@@ -84,6 +84,18 @@
     width: 60%;
     margin-top: 25px;
   }
+
+  /* Bmi section ends here */
+
+  /* our teams section start here */
+  .our-teams {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .team-content p {
+    width: 80%;
+  }
+  /* our teams section ends here */
 }
 
 /* Responsive for medium devices */
