@@ -69,15 +69,15 @@
   .bmi-calculator-input input,
   select,
   option {
-    width: 40%;
+    width: 80%;
   }
 
   #gender-id {
-    width: 46%;
+    width: 92%;
   }
 
   #activity-id {
-    width: 96%;
+    width: 192%;
   }
 
   .bmi-calculator-input button {
@@ -96,6 +96,14 @@
     width: 80%;
   }
   /* our teams section ends here */
+
+  /* Footer start here */
+  .footer-content {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+  }
+
+  /* Footer Ends here */
 }
 
 /* Responsive for medium devices */
