@@ -38,7 +38,8 @@ body {
   display: flex;
   justify-content: space-between;
   width: 80%;
-  margin: 30px auto;
+  margin: 0px auto 30px;
+  padding-top: 30px;
   align-items: center;
 }
 
@@ -77,6 +78,15 @@ body {
 /* Navbar Style Ends Here */
 
 /* Hero Banner Style Start Here*/
+
+.hero-section {
+  background: linear-gradient(
+    180deg,
+    rgb(17, 17, 17),
+    rgba(255, 255, 255, 0.1)
+  );
+}
+
 .hero-banner {
   display: flex;
   align-items: center;
@@ -118,6 +128,7 @@ body {
   font-weight: 600;
   font-size: 1rem;
   cursor: pointer;
+  color: white;
 }
 
 .hero-banner-btn {
@@ -125,17 +136,46 @@ body {
   gap: 25px;
 }
 
-.video-tutorial-box button {
+.video-tutorial-box {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.video-tutorial-box {
   position: absolute;
-  /* padding: 20px; */
-  width: 120px;
-  height: 100px;
-  border: 1px solid red;
-  background-color: white;
-  opacity: 0.5;
-  color: black;
-  margin: -150px 850px;
+  width: 130px;
+  height: 70px;
+  margin: -10% 60%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
   cursor: pointer;
+  padding: 8px 12px;
+}
+
+.video-tutorial-box button {
+  color: white;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  background-color: #e6533c;
+  border-radius: 50%;
+}
+
+.large-font {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.video-tutorial {
+  color: rgba(239, 237, 232, 0.65);
 }
 
 /* Change your habits sections style start here */
@@ -173,18 +213,6 @@ body {
   gap: 20px;
   text-align: center;
 }
-
-/* .change-your-habit-img h4 {
-  
-  padding: 10px;
-  padding-bottom: 10px;
-}
-
-.change-your-habit-img p {
-  
-  padding: 5px;
-  padding-bottom: 10px;
-} */
 
 .habits h4 {
   padding-top: 15px;
