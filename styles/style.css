@@ -4,6 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Meie+Script&display=swap");
 /* font-family: "Meie Script", cursive; */
 
+/* Global Style Start Here */
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +15,9 @@ body {
   color: white;
 }
 
-/* Shared Styles */
+/* Global Style Ends Here */
+
+/* Shared Styles Start here*/
 
 /* Primary orange color */
 .primary-color {
@@ -31,6 +34,13 @@ body {
   font-family: "Meie Script", cursive;
   font-weight: 400;
 }
+
+/* Opacity 50% */
+.opacity-half {
+  opacity: 50%;
+}
+
+/* Shared Styles Ends here*/
 
 /* Navbar Style Start Here */
 
@@ -82,8 +92,9 @@ body {
 .hero-section {
   background: linear-gradient(
     180deg,
-    rgb(17, 17, 17),
-    rgba(255, 255, 255, 0.1)
+    rgba(34, 34, 34, 0.8),
+    rgba(119, 119, 119, 0.28),
+    rgba(34, 34, 34, 0.5)
   );
 }
 
@@ -102,12 +113,17 @@ body {
   gap: 25px;
 }
 
+.banner-img {
+  max-height: 580px;
+}
+
 .banner-content h1 {
   font-size: 5rem;
 }
 
 .banner-content p {
   font-size: 1rem;
+  opacity: 50%;
 }
 
 .join-club-btn {
@@ -118,6 +134,7 @@ body {
   font-weight: 600;
   font-size: 1rem;
   cursor: pointer;
+  color: white;
 }
 
 .download-app-btn {
@@ -144,7 +161,7 @@ body {
 
 .video-tutorial-box {
   position: absolute;
-  width: 130px;
+  width: 9%;
   height: 70px;
   margin: -10% 60%;
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -156,6 +173,9 @@ body {
 }
 
 .video-tutorial-box button {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
   color: white;
   cursor: pointer;
   background-color: transparent;
@@ -169,13 +189,42 @@ body {
   border-radius: 50%;
 }
 
+.video-tutorial-box2 {
+  position: absolute;
+  width: 9%;
+  height: 70px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
+  cursor: pointer;
+  padding: 10px 8px 10px 20px;
+  margin: -35% 80%;
+}
+
+.video-tutorial-box2 button {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: white;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
 .large-font {
   font-size: 1.5rem;
   font-weight: 900;
 }
 
+.large-font2 {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
 .video-tutorial {
   color: rgba(239, 237, 232, 0.65);
+  font-size: 0.8rem;
 }
 
 /* Change your habits sections style start here */
@@ -189,17 +238,26 @@ body {
 
 .change-your-habit-section {
   width: 80%;
-  margin: 50px auto;
+  margin: 100px auto;
 }
 
 .change-your-habit-container {
-  gap: 50px;
+  gap: 60px;
 }
 .change-your-habit-content {
   text-align: center;
   width: 60%;
   margin: 0 auto;
   gap: 10px;
+}
+
+.change-your-habit-content h1 {
+  font-size: 2rem;
+}
+
+.change-your-habit-content p {
+  font-size: 1rem;
+  opacity: 50%;
 }
 
 .change-your-habit-img img {
@@ -219,6 +277,7 @@ body {
 }
 .habits p {
   padding: 5px 0;
+  opacity: 50%;
 }
 
 /* Run an Extra Mile Section Start Here */
@@ -297,6 +356,7 @@ body {
   font-size: 1rem;
   opacity: 50%;
   margin-top: 15px;
+  line-height: 30px;
 }
 
 .bmi-table-content {

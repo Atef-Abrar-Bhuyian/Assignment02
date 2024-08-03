@@ -1,7 +1,7 @@
 /* Responsive for small devices */
 
 @media screen and (max-width: 576px) {
-  /* nav bar */
+  /* nav bar style start here*/
   .nav-for-large-devices {
     display: none;
   }
@@ -9,7 +9,56 @@
   .nav-for-small-devices {
     display: contents;
   }
+  .header {
+    width: 90%;
+  }
+  /* nav bar styles ends here */
+
+  /* hero section styles start here */
+  .hero-banner {
+    flex-direction: column;
+    gap: 40px;
+    align-items: start;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .banner-content {
+    width: 100%;
+  }
+
+  .banner-content h1 {
+    font-size: 2.2rem;
+    width: 74%;
+    font-weight: 900;
+  }
+
+  .banner-content p {
+    width: 73%;
+    font-weight: 300;
+  }
+  .video-tutorial-box {
+    width: 30%;
+    margin: -80% 8%;
+  }
+  .video-tutorial-box2 {
+    margin: -122% 60%;
+    width: 30%;
+  }
+
+  .banner-img img {
+    width: 100%;
+  }
+
+  .club {
+    display: none;
+  }
+  /* hero section styles ends here */
+
   /*Change Your Habits */
+  .change-your-habit-section {
+    margin-top: 10px;
+  }
   .change-your-habit-img {
     grid-template-columns: 1fr;
     width: 80%;
@@ -88,6 +137,13 @@
   /* Bmi section ends here */
 
   /* our teams section start here */
+
+  #trainer-1 {
+    display: none;
+  }
+  #trainer-4 {
+    display: none;
+  }
   .our-teams {
     grid-template-columns: repeat(1, 1fr);
   }
