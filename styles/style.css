@@ -659,22 +659,6 @@ option {
   padding-top: 10px;
 }
 
-.see-more-btn button {
-  font-size: 1.1rem;
-  cursor: pointer;
-  color: #e6533c;
-  font-weight: 700;
-  background-color: transparent;
-  width: 100px;
-  height: 30px;
-  border: none;
-}
-
-.see-more-btn {
-  padding-top: 30px;
-  text-align: end;
-}
-
 .pages ul {
   padding-top: 20px;
   list-style: none;
