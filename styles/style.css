@@ -40,6 +40,10 @@ body {
   opacity: 50%;
 }
 
+.display-none {
+  display: none;
+}
+
 /* Shared Styles Ends here*/
 
 /* Navbar Style Start Here */
@@ -412,7 +416,7 @@ option {
   margin-bottom: 12px;
   border: none;
   font-weight: 1rem;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .calculator-form {
@@ -533,7 +537,8 @@ option {
   border-radius: 15px;
 }
 
-#trainer-3 {
+#trainer-3,
+#trainer-7 {
   height: 270px;
   background-image: linear-gradient(
       180deg,
@@ -591,6 +596,116 @@ option {
 
 /* Meet Our Team Section Ends Here */
 
+/* Reviews Section Start Here */
+.reviews-section > h1 {
+  text-align: center;
+  font-size: 2.8rem;
+  padding: 20px 0;
+}
+
+.reviews-section {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 80%;
+  margin: 80px auto;
+  padding: 20px;
+  border-radius: 20px;
+  padding-bottom: 40px;
+}
+
+.reviews-container {
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.reviews-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  box-shadow: 10px 20px 20px black;
+  background-color: black;
+}
+.profiles {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 10px;
+}
+
+.review-stars {
+  display: flex;
+  gap: 10px;
+  color: #e6533c;
+}
+
+#rating {
+  color: #e6533c;
+}
+
+#profile-picture {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.reviews-box p {
+  opacity: 50%;
+  line-height: 25px;
+  padding-top: 10px;
+}
+
+.see-more-btn button {
+  font-size: 1.1rem;
+  cursor: pointer;
+  color: #e6533c;
+  font-weight: 700;
+  background-color: transparent;
+  width: 100px;
+  height: 30px;
+  border: none;
+}
+
+.see-more-btn {
+  padding-top: 30px;
+  text-align: end;
+}
+
+.pages ul {
+  padding-top: 20px;
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  margin: 0 auto;
+  color: black;
+  justify-content: center;
+  font-weight: 900;
+}
+
+.pages li {
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #e6533c;
+  padding: 10px;
+}
+
+#active-page {
+  color: #e6533c;
+  background-color: black;
+}
+
+#continues {
+  display: flex;
+  color: #e6533c;
+  align-items: end;
+}
+
+/* Reviews Section Ends Here */
+
 /* Footer section Start Here */
 
 footer {
@@ -615,7 +730,7 @@ footer hr {
 }
 
 footer h1 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 800;
   margin-bottom: 20px;
 }
@@ -625,12 +740,6 @@ footer p {
   font-size: 1rem;
   line-height: 25px;
   width: 90%;
-}
-
-.footers-anchor a {
-  padding-top: 20px;
-  display: flex;
-  flex-direction: column;
 }
 
 .all-rights {
@@ -644,6 +753,13 @@ footer p {
   opacity: 50%;
   text-decoration: none;
   font-size: 1rem;
+}
+
+.anchor-details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 20px;
 }
 
 /* Footer section Ends Here */
