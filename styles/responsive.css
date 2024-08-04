@@ -159,6 +159,10 @@
     gap: 50px;
   }
 
+  footer hr {
+    width: 90%;
+  }
+
   /* Footer Ends here */
 }
 

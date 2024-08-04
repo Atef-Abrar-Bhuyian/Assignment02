@@ -432,9 +432,19 @@ option {
   height: 50px;
 }
 
+#gender-id option {
+  background-color: black;
+  color: white;
+}
+
 #activity-id {
   height: 50px;
   width: 192%;
+}
+
+#activity-id option {
+  background-color: black;
+  color: white;
 }
 
 /* BMI Calculator Section Ends Here */
@@ -590,14 +600,14 @@ footer {
 
 .footer-content {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
-  gap: 100px;
+  grid-template-columns: 3fr repeat(2, 1fr);
+  gap: 120px;
   width: 80%;
   margin: 0 auto;
 }
 
 footer hr {
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
   margin-top: 80px;
   margin-bottom: 35px;
@@ -614,6 +624,7 @@ footer p {
   opacity: 50%;
   font-size: 1rem;
   line-height: 25px;
+  width: 90%;
 }
 
 .footers-anchor a {
@@ -623,8 +634,9 @@ footer p {
 }
 
 .all-rights {
-  text-align: center;
+  margin: 0 auto;
   padding-bottom: 15px;
+  text-align: center;
 }
 
 .footers-anchor a {
