@@ -309,6 +309,11 @@ body {
   padding: 20px 50px;
 }
 
+.extra-mile-div img {
+  object-fit: none;
+  object-position: 66% 33%;
+}
+
 .extra-mile-contect {
   display: flex;
   flex-direction: column;
