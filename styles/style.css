@@ -68,6 +68,10 @@ body {
   padding: 5px 12px;
 }
 
+.not_active:hover {
+  color: #f32b0c;
+}
+
 .nav-links li {
   cursor: pointer;
   font-size: 1rem;
@@ -141,6 +145,10 @@ body {
   color: white;
 }
 
+.join-club-btn:hover {
+  background-color: #f32b0c;
+}
+
 .download-app-btn {
   background-color: transparent;
   border: 1px solid white;
@@ -150,6 +158,11 @@ body {
   font-size: 1rem;
   cursor: pointer;
   color: white;
+}
+
+.download-app-btn:hover {
+  background-color: white;
+  color: black;
 }
 
 .hero-banner-btn {
@@ -666,6 +679,10 @@ option {
 
 .pages {
   padding-top: 20px;
+}
+
+.pages li:hover {
+  background-color: #f32b0c;
 }
 
 .pages ul {
