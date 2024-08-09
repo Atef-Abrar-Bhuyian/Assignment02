@@ -664,6 +664,10 @@ option {
   padding-top: 10px;
 }
 
+.pages {
+  padding-top: 20px;
+}
+
 .pages ul {
   padding-top: 20px;
   list-style: none;
