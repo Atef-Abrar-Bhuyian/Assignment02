@@ -101,6 +101,10 @@ body {
 
 /* Hero Banner Style Start Here*/
 
+.play-icon {
+  display: none;
+}
+
 .hero-section {
   background: linear-gradient(
     180deg,
