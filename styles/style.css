@@ -782,4 +782,8 @@ footer p {
   padding-top: 20px;
 }
 
+.footers-anchor a:hover {
+  color: #f32b0c;
+}
+
 /* Footer section Ends Here */
