@@ -89,6 +89,10 @@ body {
   border: 8px;
 }
 
+.active:hover {
+  background-color: #f32b0c;
+}
+
 .nav-for-small-devices {
   display: none;
 }
@@ -650,6 +654,12 @@ option {
   box-shadow: 10px 20px 20px black;
   background-color: black;
 }
+
+.reviews-box:hover {
+  border-radius: 30px;
+  box-shadow: 20px 20px 20px black;
+}
+
 .profiles {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
