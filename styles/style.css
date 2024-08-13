@@ -777,6 +777,7 @@ footer p {
   opacity: 50%;
   text-decoration: none;
   font-size: 1rem;
+  width: fit-content;
 }
 
 .anchor-details {
@@ -786,7 +787,7 @@ footer p {
   padding-top: 20px;
 }
 
-.footers-anchor a:hover {
+.anchor-details a:hover {
   color: #f32b0c;
 }
 
